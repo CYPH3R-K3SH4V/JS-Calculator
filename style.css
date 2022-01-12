@@ -1,3 +1,31 @@
-body{
-    background:blue;
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.calculator{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    height:500px;
+    width:500px;
+    padding:50px 100px;
+    background:lightgrey;
+}
+
+.numpad{
+    display: block;
+    width:300px;
+    background:yellow;
+    height:100%;
 }
