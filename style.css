@@ -19,13 +19,33 @@
     /* text-align: center; */
     height:500px;
     width:500px;
-    padding:50px 100px;
-    background:lightgrey;
+    padding: 50px;
+    border-radius:15px;
+    background:rgb(165, 172, 192);
 }
 
 .numpad{
-    display:;
-    width:300px;
-    background:yellow;
+    display:flex;
+    flex-wrap: wrap;
+    background:#b99d9d;
     height:100%;
+    width:100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn{
+    width:33.33333%;
+    border:1px solid lightgray;
+    border-radius:2px;
+    font-weight: 600;
+}
+    
+
+.num-entr{
+    width: 100%;
+}
+
+.large-btn{
+    font-size: large;
 }
